@@ -1,5 +1,39 @@
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 100vh
+  line-height: 100vh;
+}
+
+#root {
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  place-items: center;
+}
+
+.App {
+  background: burlywood;
+}
+
+.Card {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3px;
+  width: 250px;
+  height: 350px;
+  background: white;
+  margin: 1em;
+}
+
+.Card img {
+  width: 200px;
+  height: 200px;
+  padding-top: 5px;
+  object-fit: cover;
+}
+
+.Card h2 {
+  margin: 5px;
 }
